@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel's Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .card {
+      background: white;
+      margin: 30px;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #333;
+      margin: 8px 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is a simple HTML page.</p>
+
+  <div class="gallery">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Puss_in_Boots_%282011_film%29_poster.jpg" alt="Puss in Boots Poster">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg" alt="Dark Knight Poster">
+  </div>
+
+  <div class="card">
+    <h1>Hi, I'm Daniel</h1>
+    <p>Computer Science Student</p>
+    <p>Favorite Movies: <strong>Puss in Boots</strong>, <strong>The Dark Knight</strong></p>
+    <p>Favorite Shows: <strong>True Detective</strong>, <strong>Mindhunter</strong></p>
+  </div>
+
 </body>
 </html>
