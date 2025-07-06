@@ -1,0 +1,9 @@
+# Ignore node junk
+node_modules/
+dist/
+*.log
+.env
+
+# macOS/system garbage
+.DS_Store
+Thumbs.db
